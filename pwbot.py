@@ -14,14 +14,14 @@ from pyrogram import Client, filters
 from pyrogram.types import User, Message
 #import os
 
-acces = -1001830005718
+acces = -1001834639543
 
 print(4321)
 bot = Client(
     "bot",
-    api_id=2164808, 
-    api_hash="2af46b76e38461db8b0b078dfa79c2a8",
-    bot_token="5822002511:AAFPysAgGvMGMV8SblaiiRr5id6E4koxX1Y") #6066236733:AAGV2ABVTOK5naEzmXly1-FaWbeTtA0R_kA
+    api_id=26435700, 
+    api_hash="527cf5174e120a9093611bc69d7b7709",
+    bot_token="6155879022:AAFkLrPCRcDMFyk5GetOPYLEn6tybX6gu28") #6066236733:AAGV2ABVTOK5naEzmXly1-FaWbeTtA0R_kA
 
 @bot.on_message(group=2)
 async def account_login(bot: Client, m: Message):
